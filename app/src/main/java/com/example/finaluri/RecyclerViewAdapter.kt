@@ -27,6 +27,7 @@ class RecyclerViewAdapter(private val list: List<Book>):
 
         private val favButton: ImageView = itemView.findViewById(R.id.favBtn)
         private val readBookBtn:Button = itemView.findViewById(R.id.readBookBtn)
+
         fun setData(book: Book) {
 
             Glide.with(itemView.context)
@@ -58,20 +59,6 @@ class RecyclerViewAdapter(private val list: List<Book>):
                 val action = HomeFragmentDirections.actionHomeFragmentToBrowserFragment(bookUrl)
                 navController.navigate(action)
 
-
-//
-//                val bookUrl = book.bookUrl
-//                val book = Uri.parse(bookUrl)
-//                val link = Intent(Intent.ACTION_VIEW, book)
-//                link.setPackage("com.browser.android")
-//                mContext.startActivity(link)
-//                try {
-//
-//                }
-//                catch (e: ActivityNotFoundException) {
-//
-////                    startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(bookUrl)))
-//                }
 
 
             }

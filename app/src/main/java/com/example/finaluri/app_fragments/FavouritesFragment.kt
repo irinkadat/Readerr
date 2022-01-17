@@ -15,7 +15,7 @@ import java.util.ArrayList
 class FavouritesFragment:Fragment(R.layout.fragment_favourites) {
 
 
-    private lateinit var db:DatabaseReference
+
     private lateinit var recyclerView2: RecyclerView
     private lateinit var bookArrayList: ArrayList<Book>
 

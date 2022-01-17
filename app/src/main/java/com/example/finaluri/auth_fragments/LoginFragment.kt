@@ -67,7 +67,7 @@ class LoginFragment:Fragment(R.layout.fragment_login) {
     private fun gotoProfile() {
         val intent = Intent(activity, MainActivity2::class.java)
         startActivity(intent)
-//        findNavController().navigateUp()
+
 
 
     }
