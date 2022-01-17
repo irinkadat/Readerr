@@ -2,7 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/img_2"
+    android:background="@drawable/img_3"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <LinearLayout
@@ -16,41 +16,75 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registration"
+            android:fontFamily="@font/semi_bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="100dp"
+            android:textSize="46sp"
+            android:textColor="@color/white"/>
+
         <EditText
             android:id="@+id/editTextPersonName"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
+            android:paddingStart="20dp"
+            android:background="#50EA25A1"
             android:ems="10"
+            android:fontFamily="@font/regular"
             android:inputType="textPersonName"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
             android:hint="Username" />
 
         <EditText
             android:id="@+id/editTextEmail"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:hint="E-mail"
+            android:background="#50EA25A1"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/regular"
+            android:paddingStart="20dp"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
             android:inputType="textEmailAddress" />
 
         <EditText
             android:id="@+id/editTextPassword"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
+            android:paddingStart="20dp"
+            android:fontFamily="@font/regular"
+            android:layout_marginTop="20dp"
+            android:background="#50EA25A1"
             android:hint="Password"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
             android:inputType="textPassword" />
 
         <EditText
             android:id="@+id/editTextRepeatPassword"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
+            android:fontFamily="@font/regular"
+            android:background="#50EA25A1"
+            android:textColorHint="@color/white"
+            android:layout_marginTop="20dp"
+            android:paddingStart="20dp"
+            android:textColor="@color/white"
             android:hint="Repeat password"
 
             android:inputType="textPassword" />
 
         <Button
             android:id="@+id/buttonSubmit"
-            android:layout_width="wrap_content"
+            android:layout_width="300dp"
             android:layout_gravity="center"
-            android:backgroundTint="#352727"
+            android:backgroundTint="#80C3228B"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:text="Submit" />

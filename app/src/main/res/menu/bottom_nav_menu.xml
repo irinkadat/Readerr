@@ -3,18 +3,18 @@
 
     <item
         android:id="@+id/homeFragment"
-        android:icon="@drawable/ic_baseline_home_24"
+        android:icon="@drawable/svg_home"
         android:title="Home"/>
 
 
     <item
         android:id="@+id/favouritesFragment"
-        android:icon="@drawable/ic_baseline_favorite_24"
+        android:icon="@drawable/svg_favourites"
         android:title="Favourite"/>
 
     <item
         android:id="@+id/profileFragment"
-        android:icon="@drawable/ic_baseline_person_24"
+        android:icon="@drawable/svg_profile"
         android:title="Profile"/>
 
 

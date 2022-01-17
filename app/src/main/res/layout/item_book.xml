@@ -50,7 +50,7 @@
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="28dp"
         android:background="@drawable/ic_red_favorite_24"
         android:backgroundTint="#F32020"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -62,11 +62,13 @@
         android:id="@+id/readBookBtn"
         android:layout_width="wrap_content"
         android:layout_height="36dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="24dp"
         android:backgroundTint="#3A3636"
         android:text="read book"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.536"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

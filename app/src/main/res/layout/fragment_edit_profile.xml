@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#9CBFDC"
+    android:background="@drawable/img_5"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <LinearLayout
@@ -22,7 +22,10 @@
         <EditText
             android:id="@+id/editTextPassword"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:paddingStart="20dp"
+            android:background="#50EA25A1"
+            android:fontFamily="@font/regular"
+            android:layout_height="50dp"
             android:hint="New password"
             android:inputType="textPassword" />
 
@@ -33,12 +36,17 @@
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:text="change password"
-            android:backgroundTint="#1F6C65"/>
+            android:backgroundTint="#50C3228B"
+
+            />
 
         <EditText
             android:id="@+id/editTextPersonName"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
+            android:paddingStart="20dp"
+            android:background="#50EA25A1"
+            android:fontFamily="@font/regular"
             android:ems="10"
             android:inputType="textPersonName"
             android:hint="Name"
@@ -48,8 +56,11 @@
         <EditText
             android:id="@+id/editUrl"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:ems="10"
+            android:paddingStart="20dp"
+            android:background="#50EA25A1"
+            android:fontFamily="@font/regular"
             android:inputType="textPersonName"
             android:hint="Url"
             android:layout_marginTop="10dp"/>
@@ -57,9 +68,11 @@
         <Button
             android:id="@+id/buttonSave"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:paddingStart="20dp"
+            android:layout_height="50dp"
+            android:fontFamily="@font/regular"
             android:layout_gravity="center"
-            android:backgroundTint="#1F6C65"
+            android:backgroundTint="#50C3228B"
             android:layout_marginTop="20dp"
             android:text="save" />
     </LinearLayout>
